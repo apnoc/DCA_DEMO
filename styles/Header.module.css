@@ -1,0 +1,122 @@
+.box {
+  display: flex;
+  justify-content: space-between;    
+}
+.selected {
+  text-align: center;
+  color:#ffff;
+  font-weight: 700;
+  
+}
+
+.Header__Section{
+  background-color: #007CBA;
+}
+
+
+.navbar{
+  font-weight: 400;
+  color:#007CBA !important;
+  background: linear-gradient(-90deg,  #1c1d1d, #474e52); 
+}
+
+
+.navbarnav .navlink {
+  color:#fff !important;
+  font-weight:bold;
+  font-size:600;
+  margin: 0rem 0.5rem;
+  padding: 1rem;
+
+}
+
+ .navbarnav .navlink:hover{
+  color:#007CBA !important;
+  background-color:#fff ;
+  border-radius: 0.5rem;
+}
+
+
+
+.images__1{
+width:100rem;
+ border-radius:50rem; 
+}
+
+.menu {
+  background-color: #ffff;
+  margin: 1rem;
+  padding: 1rem;
+}
+.menu h4{
+  font-weight:bold;
+  font-size:600;
+}
+.details{
+  margin:20px;  
+}
+
+.details li {
+  padding: 0.5rem;
+  list-style-type: none;
+  
+}
+.details li a {
+  text-decoration: none; 
+   
+    
+
+}
+.details li a:hover {
+  text-decoration: none;
+  background-color: #678fa3;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+
+.banner {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin: 3rem;
+}
+
+.span {
+  font-weight: bold;
+}
+
+.notifications {    
+  border: 1px solid #1e1e1f ;
+  margin:2rem;
+  padding: 1px;
+  background-color: #fff
+
+}
+.content_info{
+  background-color: #fff;
+  padding: 1rem;
+  margin:1rem;
+}
+.notifications h4 {
+  margin: 1px;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: rgb(216, 232, 248)
+}
+
+.notifications .text .content {
+  margin: 1px;
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 2rem;    
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

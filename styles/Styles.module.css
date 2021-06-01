@@ -1,0 +1,33 @@
+.content_info{
+    background-color: #fff;
+    padding: 1rem;
+    margin:1rem;
+}
+
+.content >h3{
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem;
+    
+} 
+
+.content >h5{
+    font-weight: 600;   
+    font-style: italic; 
+    margin: 1rem;
+} 
+
+.subheader{
+    font-weight: 400;
+    text-decoration: none;
+    color:black;   
+    margin:0.5rem;
+}
+
+.subheader:hover{   
+    color:white;
+    padding:  0.5rem; 
+    text-decoration: none;  
+    background-color: #007CBA;   
+    border-radius: 0.5rem; 
+}
